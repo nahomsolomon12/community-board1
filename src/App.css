@@ -1,0 +1,36 @@
+*{
+    background-color: #a09372;
+    color: #104609;
+}
+
+h1{
+    text-align: center;
+}
+h1 img {
+    width: 7%;
+    height: 7%;
+}
+
+.Info-Card {
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Info-Card, h3, p {
+        background-color: white;
+
+}
+.Card-Image {
+    width: 85%;
+    height: auto;
+}
+
+.main-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    max-width: 4000px;
+    margin: 0 auto;
+}
